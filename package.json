@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-next",
+  "name": "frontend-analytics-widget-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "13.1.6",
-    "@types/node": "18.11.18",
-    "@types/react": "18.0.27",
-    "@types/react-dom": "18.0.10",
-    "eslint": "8.32.0",
-    "eslint-config-next": "13.1.6",
-    "next": "13.1.6",
+    "@ant-design/icons": "^5.0.1",
+    "@react-google-maps/api": "^2.18.1",
+    "@types/node": "18.15.7",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "antd": "^5.3.2",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "next": "13.2.4",
+    "prettier": "^2.8.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "4.9.4"
+    "styled-components": "^5.3.9",
+    "typescript": "5.0.2",
+    "use-places-autocomplete": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/google-map-react": "^2.1.7",
+    "@types/styled-components": "^5.1.26"
   }
 }

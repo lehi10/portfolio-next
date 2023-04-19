@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Layers</name>
+    <description/>
+    <Style id="icon-157-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-157-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/157-yellow-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-157">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-157-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-157-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-5000-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-F5E2BC-1000-127-normal">
+      <LineStyle>
+        <color>ffbce2f5</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fbce2f5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-F5E2BC-1000-127-highlight">
+      <LineStyle>
+        <color>ffbce2f5</color>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7fbce2f5</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-F5E2BC-1000-127">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-F5E2BC-1000-127-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-F5E2BC-1000-127-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Glasgow Central Railway Station</name>
+        <description><![CDATA[Glasgow Central Railway Station<br> <br> OID 1<br> Name Glasgow Central Railway Station<br> FolderPath Train Map<br> SymbolID 0<br> AltitudeMode -1<br> Snippet <br> PopupInfo [CDATA[<p>The station was opened by the Caledonian Railway in 1879.&nbsp;<span style="font-size:10pt">The station serves all of the Greater Glasgow suburbs andtowns, and the Ayrshire and Clyde coasts, and is the terminus for allinter-city services between Glasgow and destinations in England. There is also alimited service to Edinburgh.</span></p><p><span style="font-size:10pt"><u><b>Photo of Station</b></u></span></p><p><img src="http://upload.wikimedia.org/wikipedia/commons/9/99/GlasgowCentral.jpg" style="width:242px"></p><p><u><b>Station website</b></u></p><p><a href="http://www.networkrail.co.uk/aspx/855.aspx">http://www.networkrail.co.uk/aspx/855.aspx</a></p>]]]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -4.258468,55.858898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dumbreck Railway Station</name>
+        <description><![CDATA[Dumbreck Railway Station<br> <br> OID 2<br> Name Dumbreck Railway Station<br> FolderPath Train Map<br> SymbolID 0<br> AltitudeMode -1<br> Snippet <br> PopupInfo [CDATA[<span style="font-size:11pt;line-height:115;font-family:Calibri, sans-serif">The station ismanaged by First ScotRail and lies on the Paisley Canal Line</span><div style="font-family:arial;font-size:10pt"><span style="font-size:11.0pt;line-height:115"><br></span></div><div><font face="Calibri, sans-serif"><span style="font-size:15px;line-height:17px"><b><u>Photo of Station</u></b></span></font></div><div><font face="Calibri, sans-serif"><span style="font-size:15px;line-height:17px"><b><u><br></u></b></span></font></div><div><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Dumbreck_railway_station_in_2008.jpg/265px-Dumbreck_railway_station_in_2008.jpg" style="width:243px"></div><div><br>&nbsp;</div><div><u><b>Station Website</b></u></div><div><br>&nbsp;</div><div><a href="http://www.nationalrail.co.uk/stations/dum/details.html">http://www.nationalrail.co.uk/stations/dum/details.html</a></div>]]]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -4.301201,55.844639,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corkerhill Railway Station</name>
+        <description><![CDATA[Corkerhill Railway Station<br> <br> OID 3<br> Name Corkerhill Railway Station<br> FolderPath Train Map<br> SymbolID 0<br> AltitudeMode -1<br> Snippet <br> PopupInfo [CDATA[<p><font face="arial, sans-serif">The station is managed by First ScotRail and lies on thePaisley Canal Line 5 km (3¼ miles) west of Glasgow Central.</font></p><p><font face="arial, sans-serif"><b><u>Photo of Station</u></b></font></p><p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Corkerhill_Station_01.JPG/265px-Corkerhill_Station_01.JPG" style="width:243px"></p><p><font face="arial, sans-serif"><b><u>Station Website</u></b></font></p><p><a href="http://www.nationalrail.co.uk/stations/ckh/details.html">http://www.nationalrail.co.uk/stations/ckh/details.html</a></p>]]]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -4.334316,55.837475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mosspark Railway Station</name>
+        <description><![CDATA[Mosspark Railway Station<br> <br><br> OID 4<br> Name Mosspark Railway Station<br> FolderPath Train Map<br> SymbolID 0<br> AltitudeMode -1<br> Snippet <br><br> PopupInfo [CDATA[<p style="font-family:arial"><font face="arial, sans-serif">The station is on the Paisley Canal Line 6 km (3¾ miles)west of Glasgow Central and is managed by First ScotRail.</font></p><p><font face="arial, sans-serif"><b><u>Photo of Station</u></b></font></p><p><font face="arial, sans-serif"><b><u><br></u></b></font></p><p style="font-family:arial"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Mosspark_railway_station_looking_WNW_-_geograph.org.uk_-_2562583.jpg/265px-Mosspark_railway_station_looking_WNW_-_geograph.org.uk_-_2562583.jpg" style="width:243px"></p><p style="font-family:arial"><br></p><p style="font-family:arial"><font face="arial, sans-serif"><b><u>Station Website</u></b></font></p><p style="font-family:arial"><a href="http://www.nationalrail.co.uk/stations/mpk/details.html">http://www.nationalrail.co.uk/stations/mpk/details.html</a></p>]]]]></description>
+        <styleUrl>#icon-157</styleUrl>
+        <Point>
+          <coordinates>
+            -4.348285,55.840801,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crookston Railway Station</name>
+        <description><![CDATA[Crookston Railway Station<br> <br> OID 5<br> Name Crookston Railway Station<br> FolderPath Train Map<br> SymbolID 0<br> AltitudeMode -1<br> Snippet <br> PopupInfo [CDATA[<font face="sans-serif" size="2" style="font-family:arial;font-size:10pt"><span style="line-height:19px">The station is managed by First ScotRail and lies on the Paisley Canal Line 7 km (4½ miles) west of Glasgow Central.</span></font><div><span style="line-height:19px"><br></span></div><div><span style="line-height:19px"><u><b>Photo of Station</b></u><br></span><div><font face="sans-serif" size="2"><span style="line-height:19px"><br></span></font></div><div><font face="sans-serif" size="2"><span style="line-height:19px"><br></span></font><div style="font-family:arial;font-size:10pt"><font face="sans-serif" size="2"><span style="line-height:19px"><br></span></font></div><div style="font-family:arial;font-size:10pt"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Crookston_railway_station_in_2009.jpg/265px-Crookston_railway_station_in_2009.jpg" style="width:243px"></div><div style="font-family:arial;font-size:10pt"><br><br>&nbsp;</div><div style="font-family:arial;font-size:10pt"><u><b>Station Website</b></u></div><div style="font-family:arial;font-size:10pt"><br>&nbsp;</div><div style="font-family:arial;font-size:10pt"><a href="http://www.nationalrail.co.uk/stations/ckt/details.html">http://www.nationalrail.co.uk/stations/ckt/de</a></div><div style="font-family:arial;font-size:10pt"><a href="http://www.nationalrail.co.uk/stations/ckt/details.html">tails.html</a></div></div></div>]]]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -4.364705,55.842278,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hawkhead Railway Station</name>
+        <description><![CDATA[Hawkhead Railway Station<br> <br> OID 6<br> Name Hawkhead Railway Station<br> FolderPath Train Map<br> SymbolID 0<br> AltitudeMode -1<br> Snippet <br> PopupInfo [CDATA[<font face="sans-serif" size="2" style="font-family:arial;font-size:10pt"><span style="line-height:19px">The station is managed by First ScotRail and lies on the Paisley Canal Line 10 km (6½ miles) west of Glasgow Central</span></font><div><font face="sans-serif" size="2"><span style="line-height:19px"><br></span></font></div><div><font face="sans-serif" size="2"><span style="line-height:19px"><b><u>Photo of Station</u></b><br></span></font><div style="font-family:arial;font-size:10pt"><font face="sans-serif" size="2"><span style="line-height:19px"><br></span></font></div><div style="font-family:arial;font-size:10pt"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Hawkhead_railway_station_in_2005.jpg/265px-Hawkhead_railway_station_in_2005.jpg" style="width:243px"></div><div style="font-family:arial;font-size:10pt"><br>&nbsp;</div><div style="font-family:arial;font-size:10pt"><font face="arial, sans-serif"><b><u>Station Website</u></b></font></div><div style="font-family:arial;font-size:10pt"><br>&nbsp;<a href="http://www.nationalrail.co.uk/stations/hkh/details.html" style="font-size:10pt">http://www.nationalrail.co.uk/stations/hkh/details.html</a></div></div>]]]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -4.398925,55.842167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paisley Canal Railway S</name>
+        <description><![CDATA[Paisley Canal Railway S<br> <br> OID 7<br> Name Paisley Canal Railway S<br> FolderPath Train Map<br> SymbolID 0<br> AltitudeMode -1<br> Snippet <br> PopupInfo [CDATA[<p>The station was first opened in 1885, but was closed in the60’s along with the Paisley Canal line by the Beecham Axe. It was reopened in1990 as a commuter line by its present operator First ScotRail. The currentstation is a stone’s throw away from the original station which has now beenconverted into a bar.</p><p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Paisley_Canal_railway_station_1.jpg/265px-Paisley_Canal_railway_station_1.jpg" style="font-size:10pt;width:243px"></p><p><br></p><p>Station Website</p><p><a href="http://www.nationalrail.co.uk/stations/pcn/details.html" style="font-size:10pt">http://www.nationalrail.co.uk/stations/pcn/details.html</a><span style="font-size:10pt">&nbsp;</span></p><p></p>]]]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -4.42396,55.840096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Canal Street Station</name>
+        <description><![CDATA[Old Canal Street Station<br> <br> OID 8<br> Name Old Canal Street Station<br> FolderPath Train Map<br> SymbolID 1<br> AltitudeMode -1<br> Snippet <br> PopupInfo [CDATA[The site of the Original station now converted to a bar.&nbsp;<div><br>&nbsp;</div><div>Website of new bar:</div><div><br>&nbsp;</div><div><a href="http://www.canalstation.co.uk/canal-station/home/canal-station.html">http://www.canalstation.co.uk/canal-station/home/canal-station.html</a></div>]]]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -4.425817,55.840248,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paisley Canal Railway Line</name>
+        <description><![CDATA[Paisley Canal Railway Line<br> <br> OID 1<br> Name Paisley Canal Railway Line<br> FolderPath Train Map<br> SymbolID 0<br> AltitudeMode 0<br> Clamped -1<br> Extruded 0<br> Snippet <br> PopupInfo [CDATA[<p>The Paisley Canal Railway line was originally a Glasgow andSouth Western Railway branch line running from Glasgow to Johnstone. The Linewas closed by the Beeching Axe in the 60’s but was reopened partially in 1990with services terminating at Paisley Canal Street station.&nbsp;</p><p><b><u>Photo of the original line</u></b></p><p><img src="http://www.theglasgowstory.com/images/TGSE00696_m.jpg" style="width:242px"></p><p><br></p><p><b><u>Photo of current line&nbsp;</u></b></p><p><img src="http://farm5.static.flickr.com/4107/5029625917_302d28137f.jpg" style="width:242px"></p><p><br></p>]]]]></description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -4.423822,55.840115,0
+            -4.42338,55.840141,0
+            -4.423167,55.840153,0
+            -4.421911,55.84029,0
+            -4.420656,55.840397,0
+            -4.419959,55.840405,0
+            -4.419326,55.840351,0
+            -4.418575,55.840157,0
+            -4.417437,55.839794,0
+            -4.41586,55.838894,0
+            -4.414809,55.83849,0
+            -4.413543,55.838161,0
+            -4.412727,55.838058,0
+            -4.411107,55.838085,0
+            -4.409755,55.83823,0
+            -4.408436,55.838619,0
+            -4.407449,55.839081,0
+            -4.406655,55.839729,0
+            -4.406118,55.840271,0
+            -4.405324,55.840939,0
+            -4.404069,55.841438,0
+            -4.403082,55.841766,0
+            -4.401999,55.841934,0
+            -4.397578,55.842205,0
+            -4.396688,55.842236,0
+            -4.395529,55.842205,0
+            -4.393705,55.841995,0
+            -4.391849,55.84156,0
+            -4.387954,55.840145,0
+            -4.387032,55.83979,0
+            -4.386249,55.83947,0
+            -4.385626,55.839291,0
+            -4.384489,55.838959,0
+            -4.383438,55.838764,0
+            -4.382021,55.838604,0
+            -4.38097,55.838531,0
+            -4.379607,55.838543,0
+            -4.378459,55.838593,0
+            -4.376839,55.838814,0
+            -4.37523,55.839207,0
+            -4.374028,55.839615,0
+            -4.372022,55.840492,0
+            -4.370724,55.840958,0
+            -4.369383,55.841354,0
+            -4.367044,55.841869,0
+            -4.361937,55.842953,0
+            -4.36095,55.84317,0
+            -4.360059,55.843296,0
+            -4.359008,55.843388,0
+            -4.358053,55.843399,0
+            -4.356283,55.843204,0
+            -4.355725,55.843109,0
+            -4.354116,55.842609,0
+            -4.351197,55.841354,0
+            -4.350586,55.841156,0
+            -4.349245,55.840912,0
+            -4.347013,55.840622,0
+            -4.345372,55.840263,0
+            -4.344481,55.840042,0
+            -4.343237,55.839733,0
+            -4.342132,55.839523,0
+            -4.340898,55.839363,0
+            -4.339525,55.839222,0
+            -4.338366,55.839024,0
+            -4.337057,55.838661,0
+            -4.336091,55.838326,0
+            -4.335147,55.837868,0
+            -4.334267,55.837368,0
+            -4.332422,55.83654,0
+            -4.331177,55.836254,0
+            -4.329965,55.836037,0
+            -4.327626,55.835911,0
+            -4.325845,55.836102,0
+            -4.324515,55.836441,0
+            -4.322863,55.837109,0
+            -4.320803,55.837837,0
+            -4.319268,55.838421,0
+            -4.318142,55.838894,0
+            -4.316597,55.839314,0
+            -4.315277,55.839554,0
+            -4.313636,55.839867,0
+            -4.311608,55.840237,0
+            -4.309988,55.840549,0
+            -4.309076,55.84082,0
+            -4.307928,55.841209,0
+            -4.305761,55.842224,0
+            -4.303819,55.843109,0
+            -4.302295,55.84396,0
+            -4.301105,55.844818,0
+            -4.299914,55.84549,0
+            -4.29883,55.845978,0
+            -4.297768,55.846447,0
+            -4.296545,55.846874,0
+            -4.294914,55.847237,0
+            -4.293551,55.847385,0
+            -4.292403,55.84745,0
+            -4.289281,55.847507,0
+            -4.288423,55.847488,0
+            -4.287479,55.847492,0
+            -4.282694,55.847424,0
+            -4.281052,55.847458,0
+            -4.278349,55.847626,0
+            -4.276235,55.84779,0
+            -4.273478,55.848083,0
+            -4.269733,55.848621,0
+            -4.268725,55.848812,0
+            -4.267137,55.849102,0
+            -4.265431,55.849468,0
+            -4.264047,55.849758,0
+            -4.262878,55.849987,0
+            -4.262234,55.850204,0
+            -4.261376,55.850674,0
+            -4.26071,55.851311,0
+            -4.260335,55.851952,0
+            -4.259938,55.852974,0
+            -4.259713,55.853867,0
+            -4.259402,55.854927,0
+            -4.258951,55.85677,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Shell Depot</name>
+        <description><![CDATA[Shell Depot<br> <br> OID 1<br> Name Shell Depot<br> FolderPath Train Map<br> SymbolID 0<br> AltitudeMode 0<br> Clamped -1<br> Extruded 0<br> Snippet <br> PopupInfo [CDATA[<div dir="ltr">The site is used by shell as a fuel depot for distribution to petrol stations within the west of Scotland. The Paisley canal line is used to transport fuel into the depot.</div><div dir="ltr"><br>&nbsp;</div><div dir="ltr"><img src="http://upload.wikimedia.org/wikipedia/commons/5/59/Shell_tanker_truck.jpg" style="width:243px"></div>]]]]></description>
+        <styleUrl>#poly-F5E2BC-1000-127</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -4.396151,55.842159,0
+                -4.397927,55.842098,0
+                -4.397975,55.840927,0
+                -4.3965,55.841068,0
+                -4.396833,55.841923,0
+                -4.396108,55.841991,0
+                -4.396151,55.842159,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
