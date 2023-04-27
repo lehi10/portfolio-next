@@ -1,5 +1,5 @@
 import { Typography } from 'antd';
-import { RootContainer, BodyContainer, ImageContainer } from './styles';
+import { RootContainer, BodyContainer, ImageContainer, LogoContainer } from './styles';
 import Image from 'next/image';
 import { CheckboxValueType } from 'antd/es/checkbox/Group';
 import Link from 'next/link';
@@ -29,6 +29,11 @@ const PlaceDetailsCard: React.FC<PlaceDetailsProps> = ({ image, details }) => {
 
   return (
     <RootContainer>
+      <LogoContainer>
+        <Image src="/img/analytics.png" alt="Cover image" width={150} height={40}></Image>
+        <Image src="/img/xertica.png" alt="Cover image" width={80} height={15}></Image>
+
+      </LogoContainer>
       <ImageContainer>
         <Image loader={myLoader} src={'cover.jpg'} alt="Cover image" fill />
       </ImageContainer>
