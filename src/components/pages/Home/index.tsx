@@ -17,7 +17,6 @@ import {
 import PlaceDetailsCard from 'components/shared/DataDisplay/PlaceDetailsCard';
 const { Content } = Layout;
 import PlacesAutocomplete from 'components/shared/Inputs/Autocomplete';
-import { DEFAULT_CENTER } from 'constants/constants';
 import { getStaticStreetviewImg } from 'utils/staticStreetview';
 import LayersSection from 'components/pages/Home/components/LayersSection';
 import SliderSection, {
@@ -87,25 +86,23 @@ const Map = () => {
         const trafficLayer = new google.maps.TrafficLayer();
         trafficLayer.setMap(map);
       }
+      if (layer === 'populationLayer') {
+        let origin = location.origin;
+
+        const kmlLayer = new google.maps.KmlLayer({
+          url: origin + '/assets/Bogota.kml',
+        });
+        kmlLayer.setMap(map);
+      }
+      
     });
-    /*const ctaLayer = new google.maps.KmlLayer({
-      url: 'assets/points.kml',
-      map: map,
-    });
-    */
-    const kmlLayer = new google.maps.KmlLayer({
-      url: 'https://geekhouse.club/maps/recarga.kml',
-    });
-    const trafficLayer = new google.maps.TrafficLayer();
+
     const transitLayer = new google.maps.TransitLayer();
     const bikeLayer = new google.maps.BicyclingLayer();
 
-    //trafficLayer.setMap(map);
     //transitLayer.setMap(map);
-    //kmlLayer.setMap(map);
-    bikeLayer.setMap(map);
+    //bikeLayer.setMap(map);
 
-    //console.log(kmlLayer);
   };
 
   const handleChangeSlider = (value: number, type: string) => {
