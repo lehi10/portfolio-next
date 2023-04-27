@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Bogota.kml</name>
+    <description/>
+    <Style id="icon-102-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/102-pink.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-102-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/102-pink.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-102-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-102-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-102-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-124-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-124-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-124">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-124-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-124-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-124-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-124-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-124-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-124-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-124-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-125-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/125-restaurant.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-125-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/125-restaurant.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-125">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-125-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-125-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-125-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/125-restaurant.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-125-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/125-restaurant.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-125-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-125-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-125-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-158-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/158-yellow.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-158-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/158-yellow.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-158-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-158-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-158-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-22-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-22-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-22-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-35-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/35-coffeehouse.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-35-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/35-coffeehouse.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-35">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-35-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-35-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-503-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-503-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-62-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/62-green.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-62-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/62-green.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-62-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-62-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-62-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-81-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/81-lodging.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-81-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/81-lodging.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-81">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-81-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-81-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-9999FF-3000-115-nodesc-normal">
+      <LineStyle>
+        <color>ffff9999</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff9999</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-9999FF-3000-115-nodesc-highlight">
+      <LineStyle>
+        <color>ffff9999</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ff9999</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-9999FF-3000-115-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-9999FF-3000-115-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-9999FF-3000-115-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Capa sin nombre</name>
+      <Placemark>
+        <name>Hotel Bohème Royal</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AKnoyZ0RFw2GWGkmf36Zc1HyRUX5WPhtog7vzIASmu9Tkya25lB0oEHosFmmKtVpdk-7UbJY4rROMyhdKPkDuvYMhcv5xMdQFOBuBuOsLsXWg8INv76_vdk" height="200" width="auto" /><br><br>Por: lromero - ‎‎ -   <br> <br>Calle 82 No. 12-35<br>Zona Rosa<br>Bogotá - Colombia<br> <br>El Hotel Bohème Royal ha sido creado para gente con espíritu joven e informal que disfruta de su ubicación en la zona del Centro Comercial Andino, famosa por sus bares, restaurantes y reconocidas boutiques.<br>más datos » (http://maps.google.com/maps?f=q&hl=es&geocode=&q=La+Boheme+Royal+Bogota&mrt=kmlkmz&jsv=122&sll=4.61732,-74.080467&sspn=0.062624,0.111237&ie=UTF8&latlng=4666810,-74054054,15632253252752641365&ei=YjWeSLn7FYiW2wK5uqSfBw&sig2=qfUzs05wl8XiqbV_AtfzvA&cd=3)]]></description>
+        <styleUrl>#icon-81</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AKnoyZ0RFw2GWGkmf36Zc1HyRUX5WPhtog7vzIASmu9Tkya25lB0oEHosFmmKtVpdk-7UbJY4rROMyhdKPkDuvYMhcv5xMdQFOBuBuOsLsXWg8INv76_vdk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -74.054621,4.666431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hotel Estelar S.A.</name>
+        <description>Hoteles Estelar S.A.</description>
+        <styleUrl>#icon-81</styleUrl>
+        <Point>
+          <coordinates>
+            -74.094712,4.633138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zona Rosa</name>
+        <styleUrl>#poly-9999FF-3000-115-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -74.055072,4.669783,0
+                -74.056177,4.667826,0
+                -74.052851,4.665837,0
+                -74.051489,4.667901,0
+                -74.055072,4.669783,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Zona G Restaurantes</name>
+        <styleUrl>#poly-9999FF-3000-115-nodesc</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -74.05607,4.653304,0
+                -74.057035,4.651647,0
+                -74.057819,4.650824,0
+                -74.058312,4.650129,0
+                -74.055641,4.648696,0
+                -74.05372,4.651679,0
+                -74.053248,4.652994,0
+                -74.054224,4.653337,0
+                -74.055254,4.653903,0
+                -74.055598,4.654053,0
+                -74.05607,4.653304,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Zona t</name>
+        <styleUrl>#icon-124-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.053611,4.668036,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Café de la T</name>
+        <description><![CDATA[Cra. 12 A # 83 - 64   82 y Calle T  $ 15.000<br><br>Un pequeño lugar en la Zona T (http://www.vive.in/restaurantes/bogota/losencantes/LUGAR-WEB-FICHA_LUGAR_VIVEIN-4170114.html) ha conseguido marcar la diferencia en este concurrido sector de Bogotá. Se trata del Café de la T, que con su armonía y tranquilidad logra ser un punto de reunión diferente al bullicio que ofrecen otros restaurantes y bares de un sector que día a día recibe la llegada de propuestas similares pero ésta sin duda, es una de las mejores y más novedosas.<br> <br>El Café de la T no tiene problemas con la hora, no depende de ella, pues cualquier hora es posible para un buen café y sobre todo en este lugar que con un diseño de los Pettit Café parisinos lo convierten en un lugar especial en el que pasar cualquier hora del día es un placer. <br> <br>Este Café, aparte de ser restaurante y bar, es el lugar perfecto para un encuentro tranquilo, donde la conversación siempre va a predominar sobre la música que también es diferente y nueva para el sector. En medio de una tarde o una noche relajada, un Expresso o un Fondue de queso, si aparece el hambre, unas alitas apanadas o un sanduche de Roast beef si es el caso. Un Martín, un mojito o una cerveza también son dignos de este nuevo sitio. <br><br>Me encanto este lugar, es muy acogedor y todo el sitio está decorado con muy buen gusto, además es muy versatil, puede degustarse desde un té hasta una cerveza y gran variedad de platos. Vale la pena ir!<br>Me encanto este lugar, es muy acogedor y todo el sitio está decorado con muy buen gusto, además es muy versatil, puede degustarse desde un té hasta una cerveza y gran variedad de platos. Vale la pena ir!<br>Me encanto este lugar, es muy acogedor y todo el sitio está decorado con muy buen gusto, además es muy versatil, puede degustarse desde un té hasta una cerveza y gran variedad de platos. Vale la pena ir]]></description>
+        <styleUrl>#icon-35</styleUrl>
+        <Point>
+          <coordinates>
+            -74.053763,4.667741,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Accento</name>
+        <description><![CDATA[Calle 93B # 11A - 89  93 y Chicó <br>$ 6.500<br><br>¡Gracias a dios por Accento! Por fin se tiene un elegante y sofisticado espacio donde se puede tomar un delicioso café o un buen martini en uno de sus cómodos sillones o sofás mientras se le echa diente a un muy buen revistero y soberbias ediciones de libros de arte, fotografía, arquitectura, diseño, moda, historia, entre otros, sin que le estén preguntando a cada rato de manera inquisitiva si lo va a comprar o no. <br>Anaqueles que hacen de Accento la sala que todos fantaseamos tener en casa, y por ello resulta el lugar ideal para aquellos que no tienen ningún problema con pasarse la tarde ojeando libros de calidad, con afortunado chill out de trasfondo, en un ambiente demasiado agradable y acogedor.]]></description>
+        <styleUrl>#icon-35</styleUrl>
+        <Point>
+          <coordinates>
+            -74.04797,4.677396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Accento</name>
+        <description><![CDATA[Cll. 81 # 8 - 60, Local 1 82 y Calle T<br>Gracias a dios por Accento! Por fin se tiene un elegante y sofisticado espacio donde se puede tomar un delicioso café o un buen martini en uno de sus cómodos sillones o sofás mientras se le echa diente a un muy buen revistero y soberbias ediciones de libros de arte, fotografía, arquitectura, diseño, moda, historia, entre otros, sin que le estén preguntando a cada rato de manera inquisitiva si lo va a comprar o no. <br><br>Anaqueles que hacen de Accento la sala que todos fantaseamos tener en casa, y por ello resulta el lugar ideal para aquellos que no tienen ningún problema con pasarse la tarde ojeando libros de calidad, con afortunado chill out de trasfondo, en un ambiente demasiado agradable y acogedor]]></description>
+        <styleUrl>#icon-35</styleUrl>
+        <Point>
+          <coordinates>
+            -74.054514,4.666842,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brot Café</name>
+        <description>Cll. 81 # 7-93   82 y Calle T</description>
+        <styleUrl>#icon-35</styleUrl>
+        <Point>
+          <coordinates>
+            -74.049751,4.662875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Harry Sasson Wok & Satay Bar]]></name>
+        <description><![CDATA[Cll. 83 # 12-49 82 y Calle T<br><br>Quizás Harry Sasson sea no sólo el chef más famoso de Colombia sino un empresario descomunal. Hace 10 años, Harry's era una propuesta innovadora, atractiva. Aquí no se cocinaba con el Wok e instauró productos tan extraños para el paladar colombiano promedio como el curry con leche de coco y las salsas de ostras. <br>Hoy por hoy, gracias a Harry's, es posible conseguir mucha cocina oriental sofisticada. Por supuesto éste, su primer restaurante, es uno de los mejores lugares de la ciudad para encontrarla.<br>Más que un restaurante es un concepto gastronómico. El mejor lugar para ubicarse es su patio, protegido por árboles se decora con una fuente central cubierta con pétalos de rosas y techo corredizo. Es bastante acogedor, en parte por las trobas de Luis del Toro y su grupo de son cubano.<br>Su propia cava y una habitación fresca e íntima en la que tienen lugar almuerzos y cenas privadas para grupos de 6 a 11 personas, dan un toque aún más especial al lugar. <br>Este sigue siendo, sin duda, uno de los mejores restaurantes de Bogotá.<br>LA MEJOR COMIDA THAI, EL MEJOR PAVO NAVIDEÑO, LA MEJOR TARTALETA DE FRUTOS SECOS, ACOMPAÑADOS DE LOS MEJORES VINOS, NO HAY QUE BUSCAR MÁS, EN HARRY SASSON ESTÁN.]]></description>
+        <styleUrl>#icon-125</styleUrl>
+        <Point>
+          <coordinates>
+            -74.053624,4.667356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HARRY SASSON</name>
+        <description><![CDATA[Por: machamat - ‎‎ -  Restaurante Harry Sasson<br>más datos » (http://maps.google.com/maps?f=q&hl=es&geocode=&q=harry+sasson&mrt=all&jsv=122&sll=4.758296,-74.043109&sspn=0.015653,0.027809&ie=UTF8&latlng=4667270,-74054146,11297740636826696701&ei=Em6eSI3FNIqeqwKc8b3hBw&sig2=vf2s95IsiWzngHCglRYBfw&cd=1)]]></description>
+        <styleUrl>#icon-125</styleUrl>
+        <Point>
+          <coordinates>
+            -74.054146,4.66727,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gato negro Restaurante</name>
+        <description><![CDATA[Cll. 93a # 11a-47  $ 23.000 <br><br>El gato negro, emblema de este sitio, nace de un profundo amor que tuvo el primer dueño hacia este animal. Fue el primer restaurante del Parque de la 93 y aún hoy es un gran éxito, lamentablemente no entre la gente jóven. Sobre sus paredes está grabado con precisión el gato y sobre la barra del bar reposa una escultura de éste. Entre las comidas, hay variedad de pollos, carnes, pescados y pastas. Mejor dicho, para todos los gustos. También hay cócteles de la casa, como el gato macho, con 7 tragos blancos, el gato bohemio, y la gatita, que lleva brandy, amaretto y helado de vainilla. Durante el día, la música es ambiental, pero en las noches, de 9pm a 11:30pm, hay música en vivo. En el segundo piso, hay un mezanine, para máximo 15 personas, desde el cual se puede divisar perfectamente al grupo de turno. El éxito que ha tenido por un tiempo suficiente lleva a desvirtuar la creencia popular de que un gato negro es sinónimo de mala suerte.]]></description>
+        <styleUrl>#icon-125</styleUrl>
+        <Point>
+          <coordinates>
+            -74.048238,4.675996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Club Colombia</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AKnoyZ1qpT4yZ7GjGl8bldWo7NfnSRaoxT_yDZSkHG-A8syKribs951x9XNdr7OeV6u_BsDHt7ACXDFfvEc7pC4jMFDpkHC8cdzYwerP1Po" height="200" width="auto" /><br><br>Por: Juan Andres M - ‎‎ -  A Harry Sasson y Leo Katz se les abona el esfuerzo por recuperar nuestra comida típica en un ambiente alucinantemente bonito en el que cada rincón es agradable.<br>Y aunque provoca pasar a cualquier hora del día, muchos lo critican diciendo que, para el menú, es preferible comer los mismos platos preparados en casa. Más información aquí: (http://www.vive.in/restaurantes/clubcolombia)<br><br>--------------------------------------------------------------------------------------------<br>vive.ines tu mejor amigo en Bogotá, quién te recomienda los mejores lugares,eventos, conciertos, películas, restaurantes, bares, discotecas,galerías, exposiciones y obras para vivir IN en Bogotá. Vive.in esCiudad + Amigos donde, a través de los mejores lugares de Bogotá,puedes hacer planes o conectarte con tus amigos en la red.<br> <br>más datos » (http://maps.google.com/maps?f=q&hl=es&geocode=&q=vive.in&jsv=122&sll=4.614834,-74.067442&sspn=0.007828,0.013905&ie=UTF8&latlng=4665067,-74050919,1469122113925942875&ei=AHGeSLe9Oqfc2gK0yMm3Bw&sig2=7KpBJuLpansg2jedoVdSDA&cd=11)]]></description>
+        <styleUrl>#icon-125</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AKnoyZ1qpT4yZ7GjGl8bldWo7NfnSRaoxT_yDZSkHG-A8syKribs951x9XNdr7OeV6u_BsDHt7ACXDFfvEc7pC4jMFDpkHC8cdzYwerP1Po</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -74.050919,4.665067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leo Cocina y Cava</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AKnoyZ1qpT4yZ7GjGl8bldWo7NfnSRaoxT_yDZSkHG-A8syKribs951x9XNdr7OeV6u_BsDHt7ACXDFfvEc7pC4jMFDpkHC8cdzYwerP1Po" height="200" width="auto" /><br><br>Por: maqroll - ‎‎ -  No sólo es uno de los restaurantes más exclusivos de Bogotá hoy en día, sino uno de los más queridos, todo gracias a su cocinera Leonor Espinosa.Se recomienda el filete de róbalo envuelto en hojas de plátano, los langostinos con leche de coco.. Lee más sobre Leo Cocina y Cava haciendo clic aquí:<br><br>--------------------------------------------------------------------------------------------<br>vive.ines tu mejor amigo en Bogotá, quién te recomienda los mejores lugares,eventos, conciertos, películas, restaurantes, bares, discotecas,galerías, exposiciones y obras para vivir IN en Bogotá. Vive.in esCiudad + Amigos donde, a través de los mejores lugares de Bogotá,puedes hacer planes o conectarte con tus amigos en la red.<br> <br>más datos » (http://maps.google.com/maps?f=q&hl=es&geocode=&q=leo+cocina+y+cava&jsv=122&sll=4.686096,-74.0577&sspn=0.250472,0.444946&ie=UTF8&latlng=4614636,-74068932,9649078203917892816&ei=QHCeSOplotzaAtbrlacH&sig2=umqZATgmOlndU_NSJsP03A&cd=1)]]></description>
+        <styleUrl>#icon-125</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AKnoyZ1qpT4yZ7GjGl8bldWo7NfnSRaoxT_yDZSkHG-A8syKribs951x9XNdr7OeV6u_BsDHt7ACXDFfvEc7pC4jMFDpkHC8cdzYwerP1Po</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -74.068932,4.614636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Restaurante Asia de Cuba</name>
+        <description><![CDATA[Cra. 7 # 67-64 Zona G y Quinta Camacho<br>Manolo Cardona, Ricardo 'el Gato' Pérez y Alex Viveros, tres personajes de la farándula colombiana,  traen a Bogotá el restaurante Asia de Cuba que es parte de una cadena de restaurantes con franquicias en varias ciudades importantes. <br>Con su elección de música y decoración, completan la imagen de un buen restaurante para una noche romántica o incluso de rumba. <br>Por: davigoco - ‎‎ -  <br>Excelente cocina fusión]]></description>
+        <styleUrl>#icon-125</styleUrl>
+        <Point>
+          <coordinates>
+            -74.05828,4.650599,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fish Market La Fragata</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/AKnoyZ1qpT4yZ7GjGl8bldWo7NfnSRaoxT_yDZSkHG-A8syKribs951x9XNdr7OeV6u_BsDHt7ACXDFfvEc7pC4jMFDpkHC8cdzYwerP1Po" height="200" width="auto" /><br><br>Por: Juan Andres M - ‎‎ -  Congruentes con su apuesta de ser alternativa moderna de su ya clásicorestaurante, el Fish Market de la zona T ha logrado cautivar y atraer aun público joven en un local que abrió sus puertas hace menos de unaño. Mantiene el concepto de ambiente relajado y descomplicado, acordecon la zona, ofreciendo el mismo menú pero con precios abaratados. Eneste sentido merece todos los aplausos.Más información aquí: (http://www.vive.in/restaurantes/fishmarketlafragata/LUGAR-WEB-FICHA_LUGAR_VIVEIN-3630673.html)<br><br>--------------------------------------------------------------------------------------------<br>vive.ines tu mejor amigo en Bogotá, quién te recomienda los mejores lugares,eventos, conciertos, películas, restaurantes, bares, discotecas,galerías, exposiciones y obras para vivir IN en Bogotá. Vive.in esCiudad + Amigos donde, a través de los mejores lugares de Bogotá,puedes hacer planes o conectarte con tus amigos en la red.<br> <br>más datos » (http://maps.google.com/maps?f=q&hl=es&geocode=&q=vive.in&jsv=122&sll=4.686096,-74.057726&sspn=0.250472,0.444946&ie=UTF8&latlng=4661014,-74053772,10752798686141584739&ei=NnGeSNmmFYjI2gKDtZSmBw&sig2=cGZfVD_smFP_mv9sUvgyMQ&cd=14)]]></description>
+        <styleUrl>#icon-125</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/AKnoyZ1qpT4yZ7GjGl8bldWo7NfnSRaoxT_yDZSkHG-A8syKribs951x9XNdr7OeV6u_BsDHt7ACXDFfvEc7pC4jMFDpkHC8cdzYwerP1Po</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -74.053772,4.661014,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Astrid y Gaston</name>
+        <description><![CDATA[Cra. 7 # 67-64<br>Zona G y Quinta Camacho<br><br>Parecería que de la mano de su famoso chef Gastón Acurio, Astrid y Gastón estuvo predestinado a ser uno de los mejor restaurantes de la ciudad. Al fin y al cabo, tiene todo para serlo. <br><br>Con una técnica culinaria impecable y en un establecimiento que, sin lugar a dudas, descresta hasta al más exigente de los clientes, es posible encontrar platos verdaderamente magistrales. <br><br>Son famosos el mero sobre risotto de coco con camarones, el tiradito de atún acompañado de leche de tigre o el cochinillo alineado con lulo. En cuanto a postres, el suspiro limeño en deconstrucción es una verdadera joya. <br><br>El pisco sour y el Martini de pisco son apoteósicos. Para volver sin pensarlo dos veces. Un ejemplo de la riqueza de la gastronomía peruana.]]></description>
+        <styleUrl>#icon-125</styleUrl>
+        <Point>
+          <coordinates>
+            -74.057926,4.65107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pesquera Jaramillo</name>
+        <description><![CDATA[Cll. 93a # 11a-31 Norte<br>Con más de 70 años de tradición, la Pesquera Jaramillo, es sin lugar a dudas, uno de los sitios más conocidos de la ciudad. Aunque tiene una excelente vista al parque es un lugar que convoca más turistas y ejecutivos que gente jóven. En su interior se encuentra La Cava del Vino, un sitio en el que caben de 6 a 15 personas que tiene que ser reservado con antelación. Allí hay 125 referencias de vino y licores, entre los que se destaca el cognac Luis XVIII, uno de los mejores del mundo, con cien años de añejamiento. Hay música en vivo todos los días de 8 pm a 11 pm y cada dos meses hay festivales gastronómicos permanentes de distintos países.  <br> <br>ferrart dice: Es un restaurante que ha ganado mucha fama, muy puppie, muy de moda, pero sus platos son excesivamente costosos, y se pueden conseguir de igual y buen sabor en La Fragata a menores precios. Su servicio es bueno y la decoracion muy apropiada. Comida para dos con coctele o cervezas, aproximadamente $150.000]]></description>
+        <styleUrl>#icon-125</styleUrl>
+        <Point>
+          <coordinates>
+            -74.04783,4.676327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Café Juan Valdez Calle 73</name>
+        <styleUrl>#icon-125-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.055769,4.656983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Biferia</name>
+        <description><![CDATA[Cll. 79B # 8-79 82 y Calle T<br>No es casual que en La Bifería se vea la imagen de una vaca y sus cortes. Al fin y al cabo esta es la apuesta que le hace este restaurante a la gastronomía bogotana, promover cortes distintos que no se solían consumir. Es el caso del Bife de Paleta o el Asado de tira, una de las especialidades del lugar. <br>Aparte de que es un muy buen lugar para ir a gozar de carnes 100% colombianas, La Bifería da la posibilidad de llevar a casa el corte y cocinarlo.También venden las salsas. <br>Tienen un bife de chorizo muy agradable y un provolone que aguanta como entrada. Buen servicio y buen precio.<br> <br>Me parece espectacular la carne, les recomiendo el Chuleton de Res con Pure de papas con queso azul, delicioso, el vino de la casa tambien es muy bueno , es un argentino Malbec , d3e muy buen cuerpo y sabor que acompaña bien las carnes y con un precio muy comodo,. De verdad el sitio vale la pena !!!]]></description>
+        <styleUrl>#icon-125</styleUrl>
+        <Point>
+          <coordinates>
+            -74.052004,4.663046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Biferia 2</name>
+        <styleUrl>#icon-125-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.055458,4.651754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Quarteto Restaruante</name>
+        <description><![CDATA[‎ -  Quarteto Restaruante Lo Ultimo en Guarachas<br><br>Quarteto es un pequeño restaurante ubicado en la Candelaria y que pertenece a la denominada Zona C, un programa que reúne a hoteles, restaurantes, joyerías, museos, teatros, iglesias y hasta parqueaderos, en esta área céntrica de Bogotá. <br><br> <br><br>No tiene una especialidad definida, pero maneja una variada carta que incluye pasta, carnes rojas y blancas, vegetales y mariscos. Algunas de las creaciones propias son la lasaña de chorizo campesino o la picada 'lo último en guarachas', un plato para dos que contiene lomo de res, de cerdo, butifarra, chorizo, patacón, pollo con verduras y papa criolla.<br><br> <br><br>Los clientes frecuentes de Quarteto son los trabajadores de oficinas cercanas y los estudiantes de las universidades del sector. Para ellos existe un menú diario, el 'Quartetazo' ($12.000 pesos), compuesto por sopa, plato fuerte y una bebida fría y otra caliente. Los viernes este menú cambia por mariscos ($15.000) y viene acompañado con cerveza o sangría. <br><br> <br><br>El área del restaurante es el primer piso de una antigua casona, que hasta el momento no ha sufrido los embates de la decoración moderna. Cuenta con servicio a domicilio únicamente en La Candelaria y de esta misma forma vende lomos enteros de res y cerdo previamente macerados. <br><br>Funciona desde septiembre de 2006 y todos los días tiene 'happy hour' en licores y cerveza bajo la modalidad de paga dos y toma tres.]]></description>
+        <styleUrl>#icon-125</styleUrl>
+        <Point>
+          <coordinates>
+            -74.072868,4.597065,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Puerta falsa</name>
+        <description><![CDATA[Cll 11 n. 6-50 Centro<br><br>Este sitio es un clásico en La Candelaria. Aquí puedes comerte los mejores tamales de Bogotá, con un chocolate delicioso. <br>Entra en un viaje al pasado yendo a este lugar, en pleno corazón del centro histórico. Muy recomendados todos los dulces que ofrecen en su vitrina -cocadas y demás- pero, sobretodo, no te puedes perder el tamal. <br>Para ir a desayunar un domingo. es lo maximo. Eso si procure tener plan con caminata despues de eso....<br>La puerta falsa es lo máximo! Los tamales con chocolate y queso hicieron parte de mi dieta durante toda mi carrera cuando las clases me daban tiempo de escaparme. Aunque a muchos no les gusta la decoración para mi esa es una de las cosas mas valiosas que tiene el restaurante ya qeu los hace ser autenticos]]></description>
+        <styleUrl>#icon-35</styleUrl>
+        <Point>
+          <coordinates>
+            -74.074631,4.598242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CC Santa Fé</name>
+        <styleUrl>#icon-124-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.046521,4.76253,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CC Andino</name>
+        <styleUrl>#icon-124-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.053216,4.66634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CC Atlantis Plaza</name>
+        <styleUrl>#icon-124-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.055759,4.666094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CC El Retiro</name>
+        <styleUrl>#icon-124-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.054106,4.665794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hacienda Santa Barbara</name>
+        <styleUrl>#icon-124-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.033089,4.693799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CC Plaza de las Americas</name>
+        <description>Centro Comercial Plaza de las Americas Bogota, Colombia</description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            -74.135317,4.619177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carrulla</name>
+        <styleUrl>#icon-102-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.055887,4.669729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BoConcept</name>
+        <styleUrl>#icon-158-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.051564,4.689929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BoConcept</name>
+        <styleUrl>#icon-158-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.050169,4.663068,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque de la 93</name>
+        <styleUrl>#icon-62-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.048645,4.676883,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Corferias</name>
+        <description>Corporacion de Ferias y Exposiciones de Bogota. www.corferias.com</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -74.090999,4.630423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museo de Arte Moderno</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.06888,4.609663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Club El Nogal</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.050652,4.660287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torres del Parque</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.067786,4.6127,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carrera 15 Calle 87</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.053988,4.672884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>entrada principal corferia</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.090172,4.629693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle 127 con Cra 7</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.028542,4.704578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seminario Mayor de Bogotá Cra 7 N. 94 - 80</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.041626,4.674595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museo Chico Cra 7 No. 93-01</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.042145,4.674167,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calle 72 Zona Financiera</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.055275,4.655005,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Universidad Javeriana</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.064095,4.63165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museo Nacional</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.067612,4.620058,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centro Internacional Tequendama</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.06942,4.616347,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza de Toros La Santamaria</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.068535,4.613053,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Torres del Parque</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.067596,4.612326,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eje Ambiental</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.062347,4.605065,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plaza de Bolivar</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.075996,4.598103,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Casa de Nariño</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.076454,4.597504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Catedral Primada de Colombia</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.075272,4.597974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alcaldia</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.076477,4.598456,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Palacio de Justicia</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.075653,4.598744,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Candelaria</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.073021,4.597397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Iglesia de San Francisco</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.073364,4.601824,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Iglesia de La Candelaria</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.072578,4.596466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Iglesia del Carmen</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.073105,4.593344,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cementerio Central</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.074318,4.616796,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centro Comercial La Gran Estación</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.101639,4.648075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Embajada Americana</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.09597,4.638013,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fiscalia</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.098824,4.638601,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bobernación de Cundinamarca</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.096649,4.64105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centro Comercial Salitre Plaza</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.110039,4.653689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maloka</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.109695,4.655165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque Metropolitano Simón Bolivar</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.099876,4.657454,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Parque Salitre Mágico</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.092033,4.666896,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Museo de los Niños</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.088966,4.661667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Biblioteca Virgilio Barco</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.088661,4.657101,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coliseo Cubierto El Campin</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.077347,4.649348,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Estadio Nemesio Camacho El Campin</name>
+        <styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.077698,4.64676,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Iglesia Lourdes Chapinero</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.062175,4.649589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salitre Plaza Centro Comercial</name>
+        <description><![CDATA[más datos » (http://maps.google.com/maps?f=q&hl=es&geocode=&q=centro+comercial+el+salitre&jsv=122&sll=4.617491,-73.975754&sspn=0.303881,0.615234&ie=UTF8&latlng=4652994,-74109596,11922184190633308101&ei=ohCfSPzyLoOOqgKg_t2XCA&sig2=CvkG6e-GQck0unUNTufBig&cd=3)]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            -74.109596,4.652994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gratamira</name>
+        <styleUrl>#icon-22-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -74.073515,4.729727,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
