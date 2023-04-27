@@ -28,7 +28,7 @@ import { COUNTRIES } from 'constants/countries';
 
 const Map = () => {
   const [map, setMap] = useState<google.maps.Map>();
-  const [selected, setSelected] = useState(DEFAULT_CENTER);
+  const [selected, setSelected] = useState(COUNTRIES['co'].center);
   const [placeDetails, setPlaceDetails] = useState<any>();
   const [sliderType, setSliderType] = useState<string>();
   const { isLoaded } = useJsApiLoader({
@@ -79,13 +79,20 @@ const Map = () => {
     },
   };
 
-  const displayLayer = () => {
+  const displayLayer = (key: string, layers: string[]) => {
+    if (!map) return;
+
+    layers.map((layer) => {
+      if (layer === 'trafficLayer') {
+        const trafficLayer = new google.maps.TrafficLayer();
+        trafficLayer.setMap(map);
+      }
+    });
     /*const ctaLayer = new google.maps.KmlLayer({
       url: 'assets/points.kml',
       map: map,
     });
     */
-    if (!map) return;
     const kmlLayer = new google.maps.KmlLayer({
       url: 'https://geekhouse.club/maps/recarga.kml',
     });
@@ -95,10 +102,10 @@ const Map = () => {
 
     //trafficLayer.setMap(map);
     //transitLayer.setMap(map);
-    kmlLayer.setMap(map);
-    //bikeLayer.setMap(map);
+    //kmlLayer.setMap(map);
+    bikeLayer.setMap(map);
 
-    console.log(kmlLayer);
+    //console.log(kmlLayer);
   };
 
   const handleChangeSlider = (value: number, type: string) => {
@@ -115,8 +122,8 @@ const Map = () => {
         />
         <SliderSection onChange={handleChangeSlider} defaultTab={DEFAULT_TAB} />
         <LayersSection
-          onChange={() => {
-            displayLayer();
+          onChange={(key, layers) => {
+            displayLayer(key, layers);
           }}
         />
       </SiderContainer>
@@ -126,7 +133,7 @@ const Map = () => {
             <PlacesAutocomplete
               setSelected={setSelected}
               onSelect={getPlace}
-              country="pe"
+              country={COUNTRIES['co'].code}
             />
           </SearchLayout>
           <GoogleMap
@@ -142,7 +149,10 @@ const Map = () => {
             )}
           </GoogleMap>
           <CornerContainer>
-            <CountryFlag name={COUNTRIES.pe.name} image={COUNTRIES.pe.flag} />
+            <CountryFlag
+              name={COUNTRIES['co'].name}
+              image={COUNTRIES['co'].flag}
+            />
           </CornerContainer>
         </MapContainer>
       </Content>

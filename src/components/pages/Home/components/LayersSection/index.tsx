@@ -1,11 +1,11 @@
 import { Typography } from 'antd';
-import { CheckboxValueType } from 'antd/es/checkbox/Group';
 import MarkerIcon from 'components/icons/svgIcons/mapMarker';
 import PolygonIcon from 'components/icons/svgIcons/polygon';
 import RouteIcon from 'components/icons/svgIcons/route';
 import CheckBoxGroup from 'components/shared/Inputs/GroupSwitch';
 import { ReactNode } from 'react';
 import { MainContainer, CustomCollapse, LabelContainer } from './styles';
+import { DEFAULT_LAYERS } from 'constants/constants';
 const { Panel } = CustomCollapse;
 
 interface LabelCheckboxProps {
@@ -24,15 +24,21 @@ const LabelCheckbox: React.FC<LabelCheckboxProps> = ({ label, icon }) => {
 const options = [
   {
     label: (
-      <LabelCheckbox label="Transito" icon={<RouteIcon color={'red'} />} />
+      <LabelCheckbox
+        label={DEFAULT_LAYERS.traffic.label}
+        icon={<RouteIcon color={DEFAULT_LAYERS.traffic.markerColor} />}
+      />
     ),
-    value: 'layer1',
+    value: DEFAULT_LAYERS.traffic.id,
   },
   {
     label: (
-      <LabelCheckbox label="Población" icon={<RouteIcon color={'green'} />} />
+      <LabelCheckbox
+        label={DEFAULT_LAYERS.population.label}
+        icon={<RouteIcon color={DEFAULT_LAYERS.population.markerColor} />}
+      />
     ),
-    value: 'layer2',
+    value: DEFAULT_LAYERS.population.id,
   },
 ];
 

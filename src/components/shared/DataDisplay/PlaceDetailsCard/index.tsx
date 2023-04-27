@@ -15,10 +15,6 @@ const PlaceDetailsCard: React.FC<PlaceDetailsProps> = ({ image, details }) => {
     return image;
   };
 
-  const onChange = (checkedValues: CheckboxValueType[]) => {
-    console.log('checked = ', checkedValues);
-  };
-
   const displayDetailsAttribute = (key: string, type?: string) => {
     if (!details || !details[key]) return;
     if (type === 'url') {

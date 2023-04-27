@@ -7,3 +7,16 @@ export const DEFAULT_CENTER = {
 // This is only for demo porpouses, don't use this in production
 export const STATIC_STREET_VIEW_URL_IMG =
   'https://maps.googleapis.com/maps/api/streetview';
+
+export const DEFAULT_LAYERS = {
+  traffic: {
+    label: 'Tráfico',
+    id: 'trafficLayer',
+    markerColor: 'red',
+  },
+  population: {
+    label: 'Población',
+    id: 'populationLayer',
+    markerColor: 'green',
+  },
+};
