@@ -30,9 +30,8 @@ const PlaceDetailsCard: React.FC<PlaceDetailsProps> = ({ image, details }) => {
   return (
     <RootContainer>
       <LogoContainer>
-        <Image src="/img/analytics.png" alt="Cover image" width={150} height={40}></Image>
-        <Image src="/img/xertica.png" alt="Cover image" width={80} height={15}></Image>
-
+        <Image src="/img/xertica.png" alt="Cover image" width={120} height={25}></Image>
+        <Image src="/img/analytics.png" alt="Cover image" width={130} height={35}></Image>
       </LogoContainer>
       <ImageContainer>
         <Image loader={myLoader} src={'cover.jpg'} alt="Cover image" fill />
