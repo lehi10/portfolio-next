@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Slider } from 'antd';
+import { RadioChangeEvent, Slider } from 'antd';
 import type { SliderMarks } from 'antd/es/slider';
 import styled from 'styled-components';
+import { Input, Radio, Space } from 'antd';
 
 const SliderContainer = styled.div`
   width: 100%;
@@ -14,7 +15,8 @@ interface SldiderProps {
   end: number;
   max: number;
   value: number;
-  onChange: (value: number) => void;
+  allowSelectTransportation?: boolean;
+  onChange: (value: number, typeTransport?: string) => void;
 }
 
 const CustomSlider: React.FC<SldiderProps> = ({
@@ -24,8 +26,11 @@ const CustomSlider: React.FC<SldiderProps> = ({
   unitOfMeasurement,
   value,
   onChange,
+  allowSelectTransportation
 }) => {
   const [currentValue, setCurrentValue] = useState(value);
+  const [transportation, setTransportation] = useState('walking');
+
   useEffect(() => {
     setCurrentValue(value);
   }, [value]);
@@ -48,16 +53,29 @@ const CustomSlider: React.FC<SldiderProps> = ({
 
   const handleChange = (val: number) => {
     setCurrentValue(val);
-    onChange(val);
+    onChange(val, transportation);
+  };
+
+  const onChangeRadio = (e: RadioChangeEvent) => {
+    setTransportation(e.target.value);
   };
 
   return (
     <SliderContainer>
+      {allowSelectTransportation && (
+         <Radio.Group onChange={onChangeRadio} value={transportation}>
+         <Space direction="vertical">
+           <Radio value={'driving'}>En auto</Radio>
+           <Radio value={'walking'}>Caminando</Radio>
+         </Space>
+       </Radio.Group>
+      )}
       <Slider
         marks={marks}
         value={currentValue}
         onChange={handleChange}
         max={max}
+        dots
       />
     </SliderContainer>
   );

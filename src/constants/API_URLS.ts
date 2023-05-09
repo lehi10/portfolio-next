@@ -1,0 +1,1 @@
+export const API_TRAVELTIME_URL_TIME_MAP = "https://api.traveltimeapp.com/v4/time-map";

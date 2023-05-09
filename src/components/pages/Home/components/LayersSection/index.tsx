@@ -46,6 +46,15 @@ const options2 = [
   {
     label: (
       <LabelCheckbox
+        label={DEFAULT_LAYERS.policeStation.label}
+        icon={<MarkerIcon color={DEFAULT_LAYERS.policeStation.markerColor} />}
+      />
+    ),
+    value: DEFAULT_LAYERS.policeStation.id,
+  },
+  {
+    label: (
+      <LabelCheckbox
         label="Puntos de venta"
         icon={<MarkerIcon color={'orange'} />}
       />
@@ -54,7 +63,7 @@ const options2 = [
   },
   {
     label: (
-      <LabelCheckbox label="Paraderos" icon={<MarkerIcon color={'blue'} />} />
+      <LabelCheckbox label="Paraderos" icon={<MarkerIcon color={'brown'} />} />
     ),
     value: 'layer2',
   },
@@ -86,17 +95,17 @@ const LayersSection: React.FC<LayerSectionPrpos> = ({ onChange }) => {
         defaultActiveKey={['1', '2']}
         expandIconPosition="end"
       >
-        <Panel header="Seleccione las capas" key="1">
+        <Panel header="Seleccione los puntos de interes" key="2">
           <CheckBoxGroup
-            options={options}
+            options={options2}
             onChange={(e: any) => {
               onChange && onChange('1', e);
             }}
           />
         </Panel>
-        <Panel header="Seleccione los puntos de interes" key="2">
+        <Panel header="Seleccione las capas" key="1">
           <CheckBoxGroup
-            options={options2}
+            options={options}
             onChange={(e: any) => {
               onChange && onChange('2', e);
             }}
